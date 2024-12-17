@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ntk.Avahang.Tools.Convertor", "Ntk.Avahang.Tools.Convertor\Ntk.Avahang.Tools.Convertor.csproj", "{59306978-8339-41BE-BA4A-28E21D420D04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ntk.ToolsProject.Windows.AvahangHelper", "Ntk.ToolsProject.Windows.AvahangHelper\Ntk.ToolsProject.Windows.AvahangHelper.csproj", "{EDE759A4-AA9B-40F2-A878-88A0D6D71E62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59306978-8339-41BE-BA4A-28E21D420D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59306978-8339-41BE-BA4A-28E21D420D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59306978-8339-41BE-BA4A-28E21D420D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59306978-8339-41BE-BA4A-28E21D420D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE759A4-AA9B-40F2-A878-88A0D6D71E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE759A4-AA9B-40F2-A878-88A0D6D71E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE759A4-AA9B-40F2-A878-88A0D6D71E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE759A4-AA9B-40F2-A878-88A0D6D71E62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8929D703-8BED-4745-A8EA-BE15A13AD5B1}
+	EndGlobalSection
+EndGlobal

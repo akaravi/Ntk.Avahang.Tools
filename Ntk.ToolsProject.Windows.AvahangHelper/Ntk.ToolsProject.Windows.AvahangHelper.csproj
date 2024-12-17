@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <Version>7.2.1128.5</Version>
+	  <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	<PropertyGroup>
+		<SatelliteResourceLanguages>en-US;en</SatelliteResourceLanguages>
+		<ApplicationIcon>favicon.ico</ApplicationIcon>
+	</PropertyGroup>
+	<ItemGroup>
+	  <Content Include="favicon.ico" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="SixLabors.ImageSharp" Version="3.1.2" />
+	  <PackageReference Include="TagLibSharp" Version="2.3.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="tools\audiowaveform.exe">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="tools\ffmpeg.exe">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="tools\watermark.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>
